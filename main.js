@@ -5,7 +5,7 @@ gsap.set(".hero", {autoAlpha:1})
 
 ani.from(".hero", {opacity:0})
     .to(".mountains", {clipPath: "circle(100%)"})
-    .to(".explore", {xPercent: 150}, "<")
+    .to(".explore", {xPercent: 150}, "<=25%")
     .to(".wild", {xPercent: -150}, "<")
     .to(".mountains", {backgroundPosition: "50% 40%"}, "<")
 
